@@ -1,0 +1,21 @@
+{
+  "name": "gitbook-plugin-theme-dronecode",
+  "description": "(Experimental) Theme for using GitBook on Dronecode sites",
+  "version": "0.0.2",
+  "engines": {
+    "gitbook": ">=3.2.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-search": ">=2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamishwillee/theme-dronecode.git"
+  },
+  "author": "Hamish Willee <notsure@gmail.com>",
+  "license": "BSD 3-clause New or Revised License",
+  "bugs": {
+    "url": "https://github.com/hamishwillee/theme-dronecode/issues"
+  }
+  
+}
