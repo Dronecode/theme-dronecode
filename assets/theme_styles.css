@@ -4,7 +4,7 @@
 .common_menu_logo{float:left; padding-left:5px;}
 .common_menu_logo img {max-height:18px;} /*Would like to control max height, but seems to be controlled by javascript */
 
-.common_menu_options{float:right;}
+.common_menu_options{float:right; padding-top:2px;}
 .common_dronecode_menu_item{float:left; padding-right:20px;}
 body .common_menu_options a{color:WhiteSmoke;}
 
