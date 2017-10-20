@@ -8,6 +8,13 @@
 .common_dronecode_menu_item{float:left; padding-right:20px;}
 body .common_menu_options a{color:WhiteSmoke;}
 
+
+/* Unfix header (makes this theme work with theme-api) */
+.book-header {
+    position: unset;
+}
+
+
 /* Make text small as screen compresses */
 
 @media only screen and (max-width:1001px){
