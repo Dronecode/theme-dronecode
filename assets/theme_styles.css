@@ -36,5 +36,5 @@ body .common_menu_options a{color:WhiteSmoke;}
 }
 
 @media only screen and (max-width:600px){
-    .common_dronecode_menu_item{padding-right:10px;} /* Shrink menu padding */
+    .common_dronecode_menu_item{padding-right:6px;} /* Shrink menu padding */
 }
