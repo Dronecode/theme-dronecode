@@ -15,4 +15,10 @@ To install the theme, add the following text to the target book's `book.json`
     ],
  ```
  
+Optionally, you can also specify a logo that will be displayed on the root index (language-selector) page. For example:
+```
+    "variables": {
+        "logo": "./assets/site/some_logo_full.png"
+    },
 
+```
