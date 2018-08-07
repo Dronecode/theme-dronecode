@@ -67,17 +67,12 @@ Optionally, you can also specify a number of other features:
         
         "theme-dronecode": {
 
-            "menu": {[
+            "menu": [
 
                   {
                     "url": "http://px4.io/",
                     "text": "PX4 BIG",
                     "text_small" : "PX4"
-                  },
-                  {
-                    "url": "http://qgroundcontrol.com/",
-                    "text": "QGroundControl",
-                    "text_small" : "QGC"
                   },
                   {
                     "url": "https://www.dronecode.org/documentation/",
@@ -89,7 +84,7 @@ Optionally, you can also specify a number of other features:
                     "text": "Support",
                     "text_small" : "Help"
                   }
-            ]}
+            ]
 
         }
     } 
