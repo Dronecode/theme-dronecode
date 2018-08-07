@@ -15,8 +15,7 @@
           <img src="{{ config.pluginsConfig['theme-dronecode'].logo.logo_small | resolveAsset }}" alt="Dronecode logo (small)" />
         </a>
       </div>
-    
-    
+      
       <div class="common_menu_options">   
           {% for menuitem in config.pluginsConfig['theme-dronecode'].menu %}
             {% if menuitem.text %}<div class="common_dronecode_menu_item large_version"><a href="{{ menuitem.url}}">{{ menuitem.text }}</a></div>{% endif %}

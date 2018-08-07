@@ -18,10 +18,9 @@
     "url": "https://github.com/hamishwillee/theme-dronecode/issues"
   },
   "gitbook": {
-      "properties": {
-          "menu": {
-              "default": [
-
+    "properties": {
+        "menu": {
+            "default": [
                   {
                     "url": "http://px4.io/",
                     "text": "PX4",
@@ -60,10 +59,11 @@
                 "logo_large": "gitbook-plugin-theme-dronecode/images/dronecode_top_bar_logo_full.png",
                 "logo_small": "gitbook-plugin-theme-dronecode/images/dronecode_top_bar_logo_small.png",
                 "url": "https://www.dronecode.org/"
-           }
+            }
         }
         
       }
+
   }
   
   
