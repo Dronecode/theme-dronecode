@@ -16,6 +16,47 @@
   "license": "BSD 3-clause New or Revised License",
   "bugs": {
     "url": "https://github.com/hamishwillee/theme-dronecode/issues"
+  },
+  "gitbook": {
+    "properties": {
+        "menu": {
+            "default": [
+
+                  {
+                    "url": "http://px4.io/",
+                    "text": "PX4",
+                    "text_small" : "PX4"
+                  },
+                  {
+                    "url": "http://qgroundcontrol.com/",
+                    "text": "QGroundControl",
+                    "text_small" : "QGC"
+                  },
+                  {
+                    "url": "https://www.dronecode.org/sdk/",
+                    "text": "SDK",
+                    "text_small" : "SDK"
+                  },
+                  {
+                    "url": "https://mavlink.io/en/",
+                    "text": "MAVLink",
+                    "text_small" : "MAVLink"
+                  },
+                  {
+                    "url": "https://www.dronecode.org/documentation/",
+                    "text": "Documentation",
+                    "text_small" : "Docs"
+                  },
+                  {
+                    "url": "http://discuss.px4.io/",
+                    "text": "Support",
+                    "text_small" : "Help"
+                  }
+            ]
+        }
+        
+    }
   }
+  
   
 }
