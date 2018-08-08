@@ -16,11 +16,23 @@
         </a>
       </div>
       
-      <div class="common_menu_options">   
-          {% for menuitem in config.pluginsConfig['theme-dronecode'].menu %}
-            {% if menuitem.text %}<div class="common_dronecode_menu_item large_version"><a href="{{ menuitem.url}}">{{ menuitem.text }}</a></div>{% endif %}
-            {% if menuitem.text_small %}<div class="common_dronecode_menu_item small_version"><a href="{{ menuitem.url}}">{{ menuitem.text_small }}</a></div>{% endif %}
-          {% endfor %}
+      <div class="common_menu_options">
+        {% if config.pluginsConfig['theme-dronecode'].menu %}
+            {% for menuitem in config.pluginsConfig['theme-dronecode'].menu %}
+                {% if menuitem.text %}<div class="common_dronecode_menu_item large_version"><a href="{{ menuitem.url}}">{{ menuitem.text }}</a></div>{% endif %}
+                {% if menuitem.text_small %}<div class="common_dronecode_menu_item small_version"><a href="{{ menuitem.url}}">{{ menuitem.text_small }}</a></div>{% endif %}
+            {% endfor %}
+        {% else %}
+            <div class="common_dronecode_menu_item"><a href="http://px4.io/">PX4</a></div>
+            <div class="common_dronecode_menu_item large_version"><a href="http://qgroundcontrol.com/">QGroundControl</a></div>
+            <div class="common_dronecode_menu_item small_version"><a href="http://qgroundcontrol.com/">QGC</a></div>
+            <div class="common_dronecode_menu_item"><a href="https://www.dronecode.org/sdk/">SDK</a></div>
+            <div class="common_dronecode_menu_item"><a href="https://mavlink.io/en/">MAVLink</a></div>
+            <div class="common_dronecode_menu_item large_version"><a href="https://www.dronecode.org/documentation/">Documentation</a></div>
+            <div class="common_dronecode_menu_item small_version"><a href="https://www.dronecode.org/documentation/">Docs</a></div>
+            <div class="common_dronecode_menu_item large_version"><a href="http://discuss.px4.io/">Support</a></div>
+            <div class="common_dronecode_menu_item small_version"><a href="http://discuss.px4.io/">Help</a></div>
+        {% endif %}
       </div>
     </div>
     {% endblock %}
